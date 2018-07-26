@@ -1,0 +1,108 @@
+body {
+	font-size: 62.5%;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 475px;
+	height: 610px;
+	margin: auto;
+	background: #fff;
+	position: relative;
+	font-family: Arial, Helvetica, sans-serif;
+ 	/* border: 1px solid red;  */
+}
+
+.divText {
+	font-size: 16px;
+	position: absolute;
+	line-height: 22px;
+}
+
+.divText {
+	font-size: 16px;
+	position: absolute;
+	font-weight: bold;
+}
+
+#slide {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.imgStyle {
+	position: absolute;
+	/*left: 110px;
+	top: 20px;
+	width:550px; */
+	z-index:9;
+}
+
+#slideText {
+	position: absolute;
+	top: 360px;
+	left: 120px;
+	height: 110px;
+	width: 550px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.div_button {
+	 height: 456px;
+    width: 31px;
+    background: rgba(0,0,0,0);
+    position: absolute;
+    cursor: pointer;
+	z-index:9999999999;
+}
+
+#next {
+	    top: 10px;
+    left: 435px;
+}
+
+
+#previous {
+	top: 10px;
+	left: 10px;
+}
+
+.stext {
+	font-size: 16px;
+	line-height: 22px;
+}
+
+ #next:hover {
+background-color: rgba(131,131,118,0.5);
+background-image: url(../img/2.png);
+background-repeat: no-repeat;
+} 
+
+#previous:hover{
+background-color: rgba(131,131,118,0.5);
+background-image: url(../img/1.png);
+background-repeat: no-repeat;
+}
+
+/*  #next  div:hover{
+ background:red;
+    /* background-image: url(../img/2.png);
+	background-repeat: no-repeat;  
+ 
+	top: 150px;
+    left: 0px;
+    width: 35px;
+    height: 48px;
+	
+}  */
+
+#nextImg{
+    position: absolute;
+    top: 48px;
+    left: 638px;
+    width: 28px;  
+	
+}
